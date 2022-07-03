@@ -1,0 +1,52 @@
+.header__list {
+  width: 560px;
+  margin-top: 75px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Nunito";
+  font-weight: 400;
+}
+
+.header__list p {
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.header__list button {
+  width: 69px;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: rgba(233, 236, 239, 1);
+  color: rgba(134, 142, 150, 1);
+}
+
+.header__list-filters {
+  display: flex;
+  gap: 16px;
+}
+
+#selected {
+  background-color: rgba(253, 55, 126, 1);
+  color: white;
+}
+
+@media (max-width: 580px) {
+  .header__list {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .listContent {
+    width: 90%;
+  }
+}

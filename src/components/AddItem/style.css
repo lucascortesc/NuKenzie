@@ -1,0 +1,79 @@
+.form__addItem {
+  width: 363px;
+  height: 351px;
+  margin-top: 75px;
+
+  font-family: "Nunito", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: 1px solid rgba(233, 236, 239, 1);
+  border-radius: 4px;
+}
+
+.form__desc,
+.form__valor,
+.form__tipoValor {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__containerValor {
+  display: flex;
+  justify-content: space-around;
+  gap: 58px;
+}
+
+.form__containerValor input,
+.form__containerValor select,
+.form__desc input {
+  width: 128px;
+  height: 48px;
+  padding-left: 15px;
+
+  background-color: rgba(248, 249, 250, 1);
+  color: rgba(134, 142, 150, 1);
+
+  border: none;
+  border-radius: 8px;
+}
+
+.form__desc input {
+  width: 314px;
+  height: 52.8px;
+}
+
+.form__addItem button {
+  width: 314px;
+  height: 48px;
+
+  color: white;
+  background-color: rgba(253, 55, 126, 1);
+
+  border: none;
+  border-radius: 8px;
+}
+
+.form__addItem label {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form__desc label,
+.form__desc p {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form__desc label {
+  margin-bottom: 12px;
+}
+
+.form__desc p {
+  color: rgba(134, 142, 150, 1);
+}

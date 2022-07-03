@@ -1,0 +1,25 @@
+.noCard {
+  margin-top: 30px;
+}
+
+.noCard h2 {
+  font-size: 22px;
+  font-weight: 700;
+
+  color: rgba(134, 142, 150, 1);
+}
+
+.noCard__imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.noCard__imgs img {
+  margin: 18px auto;
+}
+
+@media (max-width: 580px) {
+  .noCard__imgs img {
+    width: 90%;
+  }
+}

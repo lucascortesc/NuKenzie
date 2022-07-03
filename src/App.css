@@ -1,0 +1,25 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: "Nunito";
+
+  width: 100%;
+}
+
+button:hover {
+  background-color: rgba(134, 142, 150, 1);
+  color: white;
+}
+
+@media screen and (min-width: 1072px) {
+  .mainContent {
+    flex-direction: row;
+    padding: 0px 75px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}

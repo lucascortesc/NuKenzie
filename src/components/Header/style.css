@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+
+  box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header__btnHomePage {
+  width: 64px;
+  height: 40px;
+  margin: 5px 0px;
+
+  font-weight: 600;
+  color: rgba(134, 142, 150, 1);
+  background-color: rgba(233, 236, 239, 1);
+
+  border: none;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 680px) {
+  .header {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 75px;
+  }
+
+  .header__btnHomePage {
+    margin-top: 0px;
+  }
+}

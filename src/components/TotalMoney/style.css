@@ -1,0 +1,28 @@
+.totalMoney {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 363px;
+  height: 96px;
+  margin-top: 16px;
+  padding: 0px 16px;
+
+  background-color: #e14880;
+  color: white;
+
+  border: 1px solid rgba(233, 236, 239, 1);
+  border-radius: 8px;
+}
+
+.totalMoney h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.totalMoney p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
